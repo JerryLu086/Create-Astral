@@ -204,7 +204,7 @@
       {
         predicate: { output: "ad_astra:space_helmet" },
         original: "minecraft:orange_stained_glass_pane",
-        replaceWith: "create:copper_diving_helmet",
+        replaceWith: Item.of("create:copper_diving_helmet").weakNBT(),
       },
       {
         predicate: { output: "ad_astra:space_pants" },
@@ -234,7 +234,7 @@
       {
         predicate: { output: "ad_astra:space_suit" },
         original: "ad_astra:oxygen_gear",
-        replaceWith: "create:copper_backtank",
+		replaceWith: Item.of("create:copper_backtank").weakNBT(),
       },
       {
         predicate: { output: "ad_astra:oxygen_tank" },
